@@ -2,6 +2,9 @@
 
 外面流传出来的Inktomi TrafficServer-MIXT 的资料甚少，产品本身更是很难再找到了吧。其中最最关键的是一个叫《INKTOMI宽带网多媒体应用平台方案》的ppt，并且是中文版本的，这可能是很少的一些能够了解当初这个产品的一些特性了文件了。
 
+通过MediaBridge这个概念，最终导引我找到了Inktomi 2000年花了1.3B的美金收购的一个公司：FastForward Networks的MediaBridge，这个FastForward Networks是一个专注于流媒体的大规模投放的互联网技术公司，ATS的代码里也有部分残存的fastio，应该跟他们也有关联？而这个多媒体应用平台方案里提到的所有流媒体相关的方案，都是出自这个公司。然而，跟TS一样，后来Inktomi应该是完全放弃了所有的技术和产品，包括代码，以至于我们现在也很难看到一个全貌。继续惋惜
+
+
 
 ## 名词解释：
 * CNP: Content Network Platform，内容网络平台
@@ -149,3 +152,16 @@
 1. Manage
     * Traffic Controller
     * 集成网管原有系统
+
+## 所谓的新平台的服务场景
+
+| 产品 | 企业市场 | 用户市场 |
+|-----|---------|---------|
+| 实时流媒体发布 | CEO Webcasts | 娱乐 |
+|| 产品发布 | 远程教育 |
+| 点播内容分发 | Corporate University | 视频点播 |
+| | 企业 CDN | 网站加速 |
+| 基于网络存储 | 文件推送 | Photo Sharing |
+| | 内容同步 | Music Lockers |
+| 流跟踪 | 流优先级 | 流优先级 |
+| | 使用跟踪 | 保障QoS |
